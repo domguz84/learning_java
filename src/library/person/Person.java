@@ -8,6 +8,10 @@ public abstract class Person implements UserMan {
 
     private int curdLibraryNumber;
 
+    public Person() {
+
+    }
+
     @Override
     public String toString() {
         return "Person{" +

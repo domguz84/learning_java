@@ -1,6 +1,6 @@
 package library;
 
-public class Magazine extends Library {
+public class Magazine {
 
     private String title;
     private int PublicationDate;
@@ -30,7 +30,7 @@ public class Magazine extends Library {
     }
 
     public Magazine(String title, int publicationDate) {
-        super(librarianMan, userMan);
+        //super(librarianMan, userMan);
         this.title = title;
         PublicationDate = publicationDate;
 

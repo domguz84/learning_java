@@ -6,8 +6,18 @@ import library.SpecialBook;
 
 public interface LibrarianMan {
 
-    void borrow(Book book, Magazine magazine, SpecialBook specialBook, User user);
+    void borrowTheBook(Book book, User user);
 
-//TODO: rozbić metody na osobne artykły i Overloading
+    void giveBackTheBook(Book book, User user);
+
+    void borrowTheMagazine(Magazine magazine, User user);
+
+    void giveBackTheMagazine(Magazine magazine, User user);
+
+    void borrowTheBSpecialBook(SpecialBook specialBook, User user);
+
+    void GiveBackTheBSpecialBook(SpecialBook specialBook, User user);
+
+
 }
 
